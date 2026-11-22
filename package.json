@@ -1,0 +1,30 @@
+{
+  "name": "asianscore-widget",
+  "version": "1.0.0",
+  "description": "Zero-dependency Shadow DOM Web Component (<asianscore-widget>) for real-time Football & NBA live scores, Dixon-Coles xG win probabilities, and verifiable SHA-256 prediction ledger metrics.",
+  "main": "asianscore-widget.js",
+  "files": [
+    "asianscore-widget.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://asianscore.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AIYIXIU/asianscore-live-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AIYIXIU/asianscore-live-widget/issues"
+  },
+  "keywords": [
+    "sports",
+    "live-scores",
+    "xg",
+    "football",
+    "nba",
+    "widget",
+    "asianscore"
+  ],
+  "author": "AsianScore Lab <npm@aimail.men>",
+  "license": "MIT"
+}
