@@ -1,6 +1,6 @@
 {
   "name": "asianscore-widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency Shadow DOM Web Component (<asianscore-widget>) for real-time Football & NBA live scores, Dixon-Coles xG win probabilities, and verifiable SHA-256 prediction ledger metrics.",
   "main": "asianscore-widget.js",
   "files": [
