@@ -82,7 +82,7 @@ class AsianScoreWidget extends HTMLElement {
       const matches = (data.matches || []).slice(0, this.limit);
       const rows = matches.map((m) => {
         const score = m.state === 'pre' ? (m.kickoff || '').slice(5, 16) : `${m.homeScore} - ${m.awayScore}`;
-        const href = m.url || 'https://asianscore.com/live.html';
+        const href = m.url || 'https://asianscore.com/scores.html';
         return `<a class="row" href="${href}" target="_blank" rel="noopener">
           <div class="left">
             <div class="league">${m.league || ''} · ${score}</div>
@@ -102,7 +102,7 @@ class AsianScoreWidget extends HTMLElement {
           <div class="list">${rows || '<div class="row"><span class="meta">No active fixtures</span></div>'}</div>
           <div class="foot">
             <span>Verifiable SHA-256 Ledger (${ledger.totalLocked || 0} locked)</span>
-            <a href="https://asianscore.com/ai.html" target="_blank" rel="noopener">Full Ledger →</a>
+            <a href="https://asianscore.com/models.html" target="_blank" rel="noopener">Full Ledger →</a>
           </div>
         </div>`;
     } catch (e) {

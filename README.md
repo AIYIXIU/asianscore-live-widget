@@ -4,7 +4,7 @@ Zero-dependency Shadow DOM Web Component (`<asianscore-widget>`) for embedding r
 
 - **Live Demo (GitHub Pages):** https://aiyixiu.github.io/asianscore-live-widget/
 - **Open JSON API (No key, CORS enabled):** `https://asianscore.com/api/widget/summary`
-- **Live Scoreboard:** https://asianscore.com/live.html
+- **Live Scoreboard:** https://asianscore.com/scores.html
 - **SHA-256 Verifiable AI Prediction Ledger:** https://asianscore.com/models.html#ledger
 - **Sports Quantitative Tools (Devig, Kelly, Poisson):** https://asianscore.com/tools.html
 
